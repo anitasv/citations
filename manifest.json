@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Automatic Citations",
+    "description": "Generates Chicago Style Citations",
+    "version": "1.0",
+    "action": {
+        "default_popup": "citations.html",
+        "default_icon": "citations_icon.png"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    }
+}
